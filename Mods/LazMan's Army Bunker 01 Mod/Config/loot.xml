@@ -1,0 +1,23 @@
+<configs>
+
+	<append xpath="/lootcontainers">
+	
+			<lootcontainer id="1000" count="1" size="6,2" sound_open="UseActions/open_toolchest" sound_close="UseActions/close_toolchest" loot_quality_template="qualBaseTemplate">
+				<item name="meleeToolWireTool"/>
+			</lootcontainer>
+
+			<lootcontainer id="1001" count="1" size="6,2" sound_open="UseActions/open_toolchest" sound_close="UseActions/close_toolchest" loot_quality_template="qualBaseTemplate">
+				<item group="groupToolsT1Wrench"/>
+			</lootcontainer>			
+
+			<lootcontainer id="1002" count="1" size="6,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="qualBaseTemplate">
+				<item name="note01_LazMans_army_camp_01"/>
+			</lootcontainer>
+
+			<lootcontainer id="1003" count="1" size="6,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="qualBaseTemplate">
+				<item name="note02_LazMans_army_camp_01"/>
+			</lootcontainer>
+			
+	</append>
+	
+</configs>

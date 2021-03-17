@@ -1,0 +1,21 @@
+<configs>
+
+	<insertBefore xpath="/rwgmixer/prefab_rules/prefab_rule[@name='prefabGroup4k']/prefab[@rule='prefabList']">
+		<prefab name="LazMans_remnant_waste_02" max_count="1" min_repeat_distance="800" />	
+	</insertBefore>
+
+	<insertBefore xpath="/rwgmixer/prefab_rules/prefab_rule[@name='prefabGroup8k']/prefab[@rule='prefabList']">
+		<prefab name="LazMans_remnant_waste_02" max_count="1" min_repeat_distance="1000" />	
+	</insertBefore>
+	
+<!--
+	<append xpath="/rwgmixer/prefab_rules/prefab_rule[@name='prefabGroup4k']">
+		<prefab name="LazMans_remnant_waste_02" max_count="1" min_repeat_distance="800" />
+	</append>
+	
+	<append xpath="/rwgmixer/prefab_rules/prefab_rule[@name='prefabGroup8k']">
+		<prefab name="LazMans_remnant_waste_02" max_count="1" min_repeat_distance="1000" />
+	</append>
+-->
+	
+</configs>

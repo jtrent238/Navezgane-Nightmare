@@ -1,0 +1,19 @@
+<configs>
+ 	<append xpath="/items">
+		<!-- Adds backstory for LazMans Army Camp 01 POI -->
+		<item name="note01_LazMans_army_camp_01">
+			<property name="Extends" value="blankNoteMaster"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="DescriptionKey" value="note01_LazMans_army_camp_01Desc"/>
+			<property name="CustomIcon" value="questMaster"/>
+		</item>
+	
+		<item name="note02_LazMans_army_camp_01">
+			<property name="Extends" value="blankNoteMaster"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="DescriptionKey" value="note02_LazMans_army_camp_01Desc"/>
+			<property name="CustomIcon" value="questMaster"/>
+		</item>
+	
+	</append>
+</configs>

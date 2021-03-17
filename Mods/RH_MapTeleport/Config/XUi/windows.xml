@@ -1,0 +1,27 @@
+<windows>
+	<remove xpath="/windows/window[@name='mapAreaSetWaypoint']" />
+	<append xpath="/windows">
+    <window name="mapAreaSetWaypoint" depth="7" pos="200,-200" width="200" height="138" cursor_area="true" >
+      <panel name="content" depth="0" pos="0,0" height="138" backgroundcolor="[darkGrey]" bordercolor="[black]" borderthickness="3">
+        <sprite depth="8" name="backgroundMain" sprite="menu_empty3px" color="[black]" type="sliced" fillcenter="false" />
+        <grid name="list" rows="3" cols="1" pos="6,-6" width="188" height="92" cell_width="390" cell_height="43" repeat_content="false" arrangement="vertical" controller="RH_MapTeleport, Mods">
+          <rect depth="3" width="100%" height="43" style="press" on_hover="true" on_scroll="false" disabled_font_color="148,148,148,255" controller="MapPopupEntry" sound="[craft_click]" sound_play_on_hover="[default_hover]">
+            <sprite name="background" color="[darkGrey]" />
+            <sprite depth="4" name="Icon" sprite="ui_game_symbol_map_waypoint_set" style="icon32px" pos="8,-3"/>
+            <label depth="4" name="Name" pos="112,-20" width="150" height="28" text="QUICK WAYPOINT" text_key="xuiQuickWaypoint" font_size="28" justify="center" pivot="center" />
+          </rect>
+          <rect depth="3" width="100%" height="43" style="press" on_hover="true" on_scroll="false" disabled_font_color="148,148,148,255" controller="MapPopupEntry" sound="[craft_click]" sound_play_on_hover="[default_hover]">
+            <sprite name="background" color="[darkGrey]" />
+            <sprite depth="4" name="Icon" sprite="ui_game_symbol_pen" style="icon32px" pos="8,-3"/>
+            <label depth="4" name="Name" pos="112,-20" width="150" height="28" text="SAVE WAYPOINT" text_key="xuiSaveWaypoint" font_size="28" justify="center" pivot="center"/>
+          </rect>
+          <rect depth="3" width="100%" height="43" style="press" on_hover="true" on_scroll="false" disabled_font_color="148,148,148,255" controller="MapPopupEntry" sound="[craft_click]" sound_play_on_hover="[default_hover]">
+            <sprite name="background" color="[darkGrey]" />
+            <sprite depth="4" name="Icon" sprite="ui_game_symbol_map" style="icon32px" pos="8,-3"/>
+            <label depth="4" name="Name" pos="112,-20" width="150" height="28" text="TELEPORT" text_key="xuiTeleport" font_size="28" justify="center" pivot="center"/>
+          </rect>
+        </grid>
+      </panel>
+    </window>
+	</append>
+</windows>

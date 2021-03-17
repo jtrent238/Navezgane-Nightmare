@@ -1,0 +1,27 @@
+<configs>
+	
+	<append xpath="/blocks">
+
+		<block name="POI_cntToolBoxClosed"> <!-- Container for wiring tool -->
+			<property name="Extends" value="cntToolBoxClosed"/>
+			<property name="LootList" value="1000"/>
+		</block>
+
+		<block name="POI_cntRollingToolBoxClosed"> <!-- Container for T1 wrench -->
+			<property name="Extends" value="cntRollingToolBoxClosed"/>
+			<property name="LootList" value="1001"/>
+		</block>
+
+		<block name="POI_cntBackpack01"> <!-- Container for backstory note 1 of 2 -->
+			<property name="Extends" value="cntBackpack01"/>
+			<property name="LootList" value="1002"/>
+		</block>
+
+		<block name="POI_cntBackpack03"> <!-- Container for backstory note 2 of 2 -->
+			<property name="Extends" value="cntBackpack03"/>
+			<property name="LootList" value="1003"/>
+		</block>
+		
+	</append>
+	
+</configs>
